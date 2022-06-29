@@ -42,7 +42,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    @error('name')
+                                    @error('class_id')
                                     <span class="text-danger">{{$message}}</span>
                                     @enderror
                                 </div>
@@ -58,7 +58,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    @error('name')
+                                    @error('exam')
                                     <span class="text-danger">{{$message}}</span>
                                     @enderror
                                 </div>
